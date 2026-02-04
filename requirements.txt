@@ -1,0 +1,16 @@
+# Core Dependencies
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Model Download
+gdown>=4.7.1
+
+# Optional (if you want to retrain models)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# MLflow (if implementing experiment tracking)
+mlflow>=2.9.0

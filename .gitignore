@@ -1,0 +1,184 @@
+# ==========================================================
+# EMIPredict AI - .gitignore
+# ==========================================================
+
+# ==========================================================
+# LARGE MODEL FILES - DO NOT PUSH TO GITHUB
+# ==========================================================
+# These files are too large for GitHub (>100MB limit)
+models/best_classifier.joblib
+models/best_regressor.joblib
+
+# Keep these small preprocessor files (they're needed and small)
+# models/encoder.joblib
+# models/label_encoder.joblib
+# models/scaler.joblib
+
+# ==========================================================
+# LARGE DATASET - DO NOT PUSH TO GITHUB
+# ==========================================================
+# 400K records dataset is too large
+data/emi_prediction_dataset.csv
+
+# Keep a placeholder or sample
+!data/.gitkeep
+!data/sample_data.csv
+
+# ==========================================================
+# Python
+# ==========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ==========================================================
+# IDEs and Editors
+# ==========================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================================
+# Jupyter Notebook
+# ==========================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==========================================================
+# Machine Learning & MLflow
+# ==========================================================
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.h5
+*.keras
+
+# ==========================================================
+# Streamlit
+# ==========================================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ==========================================================
+# OS Files
+# ==========================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ==========================================================
+# Logs and Databases
+# ==========================================================
+*.log
+*.sql
+*.sqlite
+*.db
+
+# ==========================================================
+# Temporary Files
+# ==========================================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ==========================================================
+# Environment Variables
+# ==========================================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================================
+# Testing
+# ==========================================================
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# ==========================================================
+# Documentation Build
+# ==========================================================
+docs/_build/
+site/
+
+# ==========================================================
+# Project Specific
+# ==========================================================
+# Keep these folders but ignore their contents initially
+!models/.gitkeep
+!data/.gitkeep
+
+# Video files (recordings)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Large compressed files
+*.zip
+*.tar.gz
+*.rar
