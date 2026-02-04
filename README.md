@@ -48,7 +48,7 @@ An intelligent ML-powered platform for predicting EMI eligibility and maximum af
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/MZ-314/EMI-Predict-AI---Intelligent-Financial-Risk
    cd "09_EMIPredict AI - Intelligent Financial Risk"
    ```
 
@@ -212,7 +212,7 @@ This project is for educational purposes as part of the EMIPredict AI capstone p
 
 ## 👨‍💻 Author
 
-[Your Name]
+Mustafiz Ahmed
 
 ## 🙏 Acknowledgments
 
